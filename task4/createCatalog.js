@@ -13,7 +13,7 @@ const options = {
 		'Content-type': 'application/json',
 	},
 	body: {
-		name: 'Exotic Cars',
+		name: 'Exotic Cars Garage',
 		is_product_catalog: 'true',
 		fields: [
 			{
