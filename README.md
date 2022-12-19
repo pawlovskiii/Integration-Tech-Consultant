@@ -5,6 +5,7 @@
 - [General info](#general-info)
 - [Setup](#setup)
   - [Installing dependencies](#installing-dependencies)
+  - [Run the project](#run-the-project)
 
 ## General info
 
@@ -28,4 +29,18 @@ $ cd Integration-Tech-Consultant
 ```bash
 # Install dependencies
 $ npm install
+```
+
+### Run the project
+
+To run the scripts within task4:
+
+```bash
+$ cd task4
+
+# To create a new catalog
+$ node createCatalog.js
+
+# To update the name of the catalog
+$ node updateCatalogName.js
 ```
