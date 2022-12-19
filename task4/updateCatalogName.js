@@ -2,7 +2,7 @@ const request = require('request');
 
 const baseUrl = 'https://api.exponea.com';
 const projectId = '37b21e42-9cc9-11e9-9bbf-aa978f2cdad2';
-const catalogId = '63a0ae13d4e097c8c0dcf8dd';
+const catalogId = '63a0c53b024a07034574c79b';
 
 const options = {
 	method: 'PUT',
@@ -14,21 +14,19 @@ const options = {
 		'Content-type': 'application/json',
 	},
 	body: {
-		name: 'Exotic Cars Garage Dubai',
+		name: 'Exotic Cars Cracow',
 		fields: [
 			{
 				name: 'lamborghini',
 				id: '1',
 				model: 'aventador svj',
 				engine: 'v12',
-				type: 'string',
 			},
 			{
 				name: 'ferrari',
 				id: '2',
 				model: 'sf90 stradale',
 				engine: 'v8',
-				type: 'string',
 			},
 		],
 	},

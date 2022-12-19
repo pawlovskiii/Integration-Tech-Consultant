@@ -13,22 +13,19 @@ const options = {
 		'Content-type': 'application/json',
 	},
 	body: {
-		name: 'Exotic Cars Garage',
-		is_product_catalog: 'true',
+		name: 'Exotic Cars Warsaw',
 		fields: [
 			{
 				name: 'lamborghini',
 				id: '1',
 				model: 'aventador svj',
 				engine: 'v12',
-				type: 'string',
 			},
 			{
 				name: 'ferrari',
 				id: '2',
 				model: 'sf90 stradale',
 				engine: 'v8',
-				type: 'string',
 			},
 		],
 	},
