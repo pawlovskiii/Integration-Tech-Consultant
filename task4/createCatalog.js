@@ -36,4 +36,5 @@ request(options, function (error, response, body) {
 	if (error) throw new Error(error);
 
 	console.log(body);
+	// { id: '63a0c723a5f53f5e064c1eb7', success: true }
 });
