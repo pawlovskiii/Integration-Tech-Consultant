@@ -33,6 +33,15 @@ $ npm install
 
 ### Run the project
 
+To partly run the task3 (first half of it):
+
+```bash
+$ cd task3
+
+# To retrieve the customer recommendations from API Exponea
+$ node retrieveRecommendations.js
+```
+
 To run the scripts within task4:
 
 ```bash
